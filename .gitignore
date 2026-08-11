@@ -1,0 +1,10 @@
+result
+result-*
+*.swp
+*~
+secrets/
+*.age
+*.conf
+
+# .nix files
+hardware-configuration.nix
