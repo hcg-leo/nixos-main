@@ -6,12 +6,16 @@
       ./hardware-configuration.nix
     ];
 
+  environment.systemPackages = with pkgs; [
+  git
+  neovim
+  ];
+
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "main";
+  # !!networking.networkmanager.enable = true;!!
 
-  networking.networkmanager.enable = true;
   # locales
   time.timeZone = "Europe/London";
 
@@ -44,11 +48,6 @@
   };
 
   nixpkgs.config.allowUnfree = true;
-
-  environment.systemPackages = with pkgs; [
-  git
-  neovim
-  ];
 
   # services
   

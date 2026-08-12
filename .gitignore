@@ -8,3 +8,4 @@ secrets/
 
 # .nix files
 hardware-configuration.nix
+networking.nix
