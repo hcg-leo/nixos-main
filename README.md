@@ -1,3 +1,11 @@
+<div align="center">
+  <h1> nixos main configuration</h1>
+  <p><i>Sway on a Samsung Galaxy Book 3 360.</i></p>
+
+  ![NixOS](https://img.shields.io/badge/NixOS-26.05-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white)
+  ![Sway](https://img.shields.io/badge/Sway-Wayland-000000.svg?style=for-the-badge)
+</div>
+
 ### install
 clone this repository <br/>
 ```
