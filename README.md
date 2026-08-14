@@ -12,15 +12,15 @@ clone this repository <br/>
 cd ~
 ```
 ```
-git clone https://github.com/hcg-leo/nixos-server
+git clone https://github.com/hcg-leo/nixos-main
 ```
 copy networking.nix.template to networking.nix
 ```
-cp ~/nixos-server/networking.nix.template ~/nixos-server/networking.nix
+cp ~/nixos-main/networking.nix.template ~/nixos-main/networking.nix
 ```
-go to ``nixos-server/networking.nix`` and setup wifi
+go to ``nixos-main/networking.nix`` and setup wifi
 ```
-nano ~/nixos-server/networking.nix
+nano ~/nixos-main/networking.nix
 ```
 symlink this repository to ``/etc`` <br/>
 ```
@@ -30,7 +30,7 @@ cd /etc
 sudo rm -rf nixos
 ```
 ```
-sudo ln -s ~/nixos-server /etc/nixos
+sudo ln -s ~/nixos-main /etc/nixos
 ```
 rebuild your system
 ```
