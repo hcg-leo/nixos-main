@@ -14,14 +14,6 @@ cd ~
 ```
 git clone https://github.com/hcg-leo/nixos-main
 ```
-copy networking.nix.template to networking.nix
-```
-cp ~/nixos-main/networking.nix.template ~/nixos-main/networking.nix
-```
-go to ``nixos-main/networking.nix`` and setup wifi
-```
-nano ~/nixos-main/networking.nix
-```
 symlink this repository to ``/etc`` <br/>
 ```
 cd /etc
