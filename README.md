@@ -14,6 +14,10 @@ cd ~
 ```
 git clone https://github.com/hcg-leo/nixos-main
 ```
+copy ``/etc/nixos/hardware-configuration.nix`` to ``/nixos-server/``
+```
+cp /etc/nixos/hardware-configuration.nix ~/nixos-server
+```
 symlink this repository to ``/etc`` <br/>
 ```
 cd /etc
